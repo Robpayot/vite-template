@@ -1,13 +1,12 @@
 {
   "private": true,
-  "name": "vite-2d-shader-template",
+  "name": "vite-template",
   "version": "0.0.0",
-  "description": "Template to make 2D Webgl effect using OGL, powered by Vite.",
+  "description": "Template to quickly make Front-end effect powered by Vite.",
   "author": "Robin Payot <robpayot@gmail.com>",
   "license": "MIT",
   "type": "module",
   "keywords": [
-    "shader",
     "vite",
     "useless",
     "fun",
@@ -20,7 +19,7 @@
     "dev": "vite",
     "build": "vite build --emptyOutDir",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "vite build --emptyOutDir && gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
@@ -36,16 +35,12 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
     "gh-pages": "^5.0.0",
-    "glsl-noise": "^0.0.0",
-    "glslify": "^7.1.1",
     "prettier": "^2.5.1",
     "sass": "^1.58.0",
-    "vite": "^4.0.1",
-    "vite-plugin-glsl": "^1.0.1"
+    "vite": "^4.0.1"
   },
   "dependencies": {
     "gsap": "^3.11.3",
-    "lil-gui": "^0.17.0",
-    "ogl": "^0.0.101"
+    "lil-gui": "^0.17.0"
   }
 }

@@ -1,7 +1,7 @@
-// Test import of a JavaScript module
-import Scene from '@/js/components/scene'
+import Component from '@/js/components/component'
 
 (() => {
-  // scene
-  new Scene()
+  // component
+  const el = document.querySelector('[data-component]')
+  new Component(el)
 })()
