@@ -1,11 +1,10 @@
-![banner2](https://user-images.githubusercontent.com/5593293/216557352-525a1c70-3a7e-4d30-948e-51d075f0a051.jpg)
+![Capture d'écran_20230207_152738](https://user-images.githubusercontent.com/5593293/217272663-11b13e91-0a1d-444b-acf0-f15813a02704.png)
 
+# Vite template builder to quickly generate Front-end code.
 
-# Vite template builder to quickly generate 2D shaders in the browser.
+This repository will help create Front-end code to quickly test some animation effects. It is powered by [Vite](https://vitejs.dev/guide/why.html) ⚡️ that quickly compiles anything you need, it is also including [Sass](https://sass-lang.com/guide), [Babel](https://babeljs.io/), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [lil-gui](https://www.npmjs.com/package/lil-gui) and [GSAP](https://greensock.com/docs/) for animations.
 
-This repository will help create custom 2D shaders quickly using the [OGL](https://github.com/oframe/ogl) library, a small, effective WebGL library. It is powered by [Vite](https://vitejs.dev/guide/why.html) ⚡️ that quickly compiles anything you need, it is also including [Sass](https://sass-lang.com/guide), [Babel](https://babeljs.io/), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [lil-gui](https://www.npmjs.com/package/lil-gui) and [GSAP](https://greensock.com/docs/) for animations.
-
-## [See it live](https://robpayot.github.io/vite-2d-shader-template/)
+## [See it live](https://robpayot.github.io/vite-template/)
 
 ## How to install
 
@@ -46,8 +45,6 @@ To build for production
 -   Use prettierrc file to configure formatting rules
 
 ## Useful links
-- [OGL docs](https://github.com/oframe/ogl)
-- Everything to know about shaders: [The book of shaders](https://thebookofshaders.com/)
 - [GSAP docs](https://greensock.com/docs/)
 - [Vite docs](https://vitejs.dev/config/)
 - [Eslint](https://eslint.org/)
