@@ -67,8 +67,4 @@ export default class Component {
     this.mouse.x = dist > 0.75 ? 0 : x
     this.mouse.y = dist > 0.75 ? 0 : y
   }
-
-  guiChange = (value) => {
-    this.program.uniforms.uOffset.value = value
-  }
 }
